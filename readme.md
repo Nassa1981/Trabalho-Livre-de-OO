@@ -96,3 +96,4 @@ MENU:
 10. Mostrar Documentação
 11. Sair
 ```
+Esse exemplo ilustra a aplicação dos principais conceitos de orientação a objetos em um contexto de sistema de biblioteca, permitindo a reutilização e especialização de classes para diferentes tipos de itens (livros, revistas, etc.) e garantindo um controle rigoroso sobre o estado de disponibilidade de cada item.
