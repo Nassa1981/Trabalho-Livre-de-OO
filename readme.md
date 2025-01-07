@@ -58,11 +58,7 @@ Implementação de métodos abstratos de forma específica em subclasses, como a
 ## Como usar
 Esse projeto foi testado utilizando o Vscode
 
-Para inciarmos a instalação primeiramente atualizaremos os pacotes do sistema com o respectivo comando:
-```
-sudo apt update -y && sudo apt upgrade -y
-```
-Agora iremos clonar o repositório para o sistema local:
+Para iniciarmos iremos clonar o repositório para o sistema local:
 ```
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
 ```
