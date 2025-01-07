@@ -29,48 +29,36 @@ Um sistema desenvolvido com princípios de **Orientação a Objetos (OO)**, perm
   - **usuarios.json**: Contém os dados dos usuários e os livros que estão emprestados.
 
 ---
-Tecnologias Utilizadas
-Python: Linguagem de programação para implementação do sistema.
-JSON: Formato utilizado para armazenar os dados de maneira estruturada.
-Conceitos de Orientação a Objetos
-Abstração
+## **Tecnologias Utilizadas**
+- **Python**: Linguagem de programação para implementação do sistema.
+- **JSON**: Formato utilizado para armazenar os dados de maneira estruturada.
+
+---
+
+## **Conceitos de Orientação a Objetos**
+
+### **Abstração**
 Representação dos principais elementos de uma biblioteca, como livros, usuários e empréstimos.
 
-Encapsulamento
+### **Encapsulamento**
 Proteção dos atributos e métodos privados para evitar alterações indevidas de dados.
 
-Herança
-Uso de uma classe base Item para representar itens gerais da biblioteca, podendo ser especializada em classes concretas, como LivroConcreto.
+### **Herança**
+Uso de uma classe base `Item` para representar itens gerais da biblioteca, podendo ser especializada em classes concretas, como `LivroConcreto`.
 
-Polimorfismo
+### **Polimorfismo**
 Implementação de métodos abstratos de forma específica em subclasses, como a definição e verificação de disponibilidade de itens.
 
-Como Usar
-Passo 1: Clonar o Repositório
-Abra o terminal ou o Git Bash e execute os comandos abaixo:
+---
 
-bash
-Copiar código
+## **Como Usar**
+
+### **Passo 1: Clonar o Repositório**
+Abra o terminal ou o **Git Bash** e execute os comandos abaixo:
+
+```bash
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
 cd Trabalho-Livre-de-OO
-Passo 2: Instalar Dependências
-Se necessário, instale os pacotes necessários:
-
-bash
-Copiar código
-pip install -r requirements.txt
-Passo 3: Executar o Sistema
-Inicie o sistema com o comando:
-
-bash
-Copiar código
-python main.py
-
-
-
-
-
-
 
 
 
