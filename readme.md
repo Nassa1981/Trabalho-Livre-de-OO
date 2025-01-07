@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ```
 Agora que você instalou as dependências, pode executar o projeto. Para isso, utilize o seguinte comando:
 ```
-python main.py```
+python main.py
 ---
 ```
 ## **Terminal do Menu**
