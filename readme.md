@@ -1,6 +1,10 @@
 # **Sistema de Gerenciamento de Biblioteca**
 
-Um sistema desenvolvido com princípios de **Orientação a Objetos (OO)**, permitindo gerenciar livros, usuários e empréstimos. Ideal para o aprendizado e aplicação de conceitos de programação orientada a objetos.
+Um sistema desenvolvido com princípios de **Orientação a Objetos (OO)**, permitindo gerenciar livros, usuários e empréstimos. Ideal para o aprendizado e aplicação de conceitos de programação orientada a objetos, mas como foi o meu primeiro projeto, o codigo não ficou tão refinado e pode haver alguns problemas que não percebi.
+
+Nome: Davi Rodrigues Nunes
+
+Matrícula: 232014413
 
 ---
 
@@ -51,19 +55,48 @@ Implementação de métodos abstratos de forma específica em subclasses, como a
 
 ---
 
-## **Como Usar**
+## Como usar
+Esse projeto foi testado utilizando o Vscode
 
-### **Passo 1: Clonar o Repositório**
-```bash'''  
+Para inciarmos a instalação primeiramente atualizaremos os pacotes do sistema com o respectivo comando:
+```
+sudo apt update -y && sudo apt upgrade -y
+```
+Agora iremos clonar o repositório para o sistema local:
+```
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
+```
+Agora que já temos o repositório na maquina, iremos acessar o mesmo com o seguinte comando:
+```
 cd Trabalho-Livre-de-OO
-
-
-### Passo 2: Instalar Dependências
-
-Após clonar o repositório, instale as dependências necessárias para executar o projeto. O projeto utiliza o `pip` para gerenciar pacotes Python. Execute o seguinte comando para instalar as dependências listadas no arquivo `requirements.txt`:
-
-```bash
+```
+Diante disso, iremos baixar as bibliotecas utilizadas no programa usando o pip, com o seguinte comando:
+```
 pip install -r requirements.txt
-Copiar código
-pip install -r requirements.txt
+```
+Agora que você instalou as dependências, pode executar o projeto. Para isso, utilize o seguinte comando:
+```
+python main.py```
+---
+```
+## **Terminal do Menu**
+
+### **Interface Principal**
+Ao executar o programa, o sistema exibe o seguinte menu no terminal:
+
+```plaintext
+========== SISTEMA BIBLIOTECÁRIO ===========
+
+MENU:
+1. Cadastrar Cliente
+2. Remover Cliente
+3. Alterar Dados do Cliente
+4. Cadastrar Livro
+5. Emprestar Livro
+6. Devolver Livro
+7. Mostrar Clientes Cadastrados
+8. Mostrar Livros Cadastrados
+9. Remover Livro da Biblioteca
+10. Mostrar Documentação
+11. Sair
+```
