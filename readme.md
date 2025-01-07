@@ -54,33 +54,6 @@ Implementação de métodos abstratos de forma específica em subclasses, como a
 ## **Como Usar**
 
 ### **Passo 1: Clonar o Repositório**
-Abra o terminal ou o **Git Bash** e execute os comandos abaixo:
-
 ```bash
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
 cd Trabalho-Livre-de-OO
-
-
-
-
-
-## **Terminal do Menu**
-
-### **Interface Principal**
-Ao executar o programa, o sistema exibe o seguinte menu no terminal:
-
-```plaintext
-========== SISTEMA BIBLIOTECÁRIO ===========
-
-MENU:
-1. Cadastrar Cliente
-2. Remover Cliente
-3. Alterar Dados do Cliente
-4. Cadastrar Livro
-5. Emprestar Livro
-6. Devolver Livro
-7. Mostrar Clientes Cadastrados
-8. Mostrar Livros Cadastrados
-9. Remover Livro da Biblioteca
-10. Mostrar Documentação
-11. Sair
