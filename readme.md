@@ -54,6 +54,13 @@ Implementação de métodos abstratos de forma específica em subclasses, como a
 ## **Como Usar**
 
 ### **Passo 1: Clonar o Repositório**
-```bash
+```bash'''  
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
 cd Trabalho-Livre-de-OO
+###''''''''''
+'
+ comando para instalar as dependências listadas no arquivo requirements.txt:
+
+bash
+Copiar código
+pip install -r requirements.txt
