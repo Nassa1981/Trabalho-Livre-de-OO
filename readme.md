@@ -57,10 +57,13 @@ Implementação de métodos abstratos de forma específica em subclasses, como a
 ```bash'''  
 git clone https://github.com/Nassa1981/Trabalho-Livre-de-OO.git
 cd Trabalho-Livre-de-OO
-###''''''''''
-'
- comando para instalar as dependências listadas no arquivo requirements.txt:
 
-bash
+
+### Passo 2: Instalar Dependências
+
+Após clonar o repositório, instale as dependências necessárias para executar o projeto. O projeto utiliza o `pip` para gerenciar pacotes Python. Execute o seguinte comando para instalar as dependências listadas no arquivo `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
 Copiar código
 pip install -r requirements.txt
